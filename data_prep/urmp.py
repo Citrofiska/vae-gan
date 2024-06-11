@@ -5,7 +5,7 @@ import glob
 import os
 
 parser = argparse.ArgumentParser()
-parser.add_argument("--dataroot", type=str, default='../../datasets/urmp/', help="data root of flickr")
+parser.add_argument("--dataroot", type=str, default='../../datasets/urmp/', help="dataset path")
 parser.add_argument("--outdir", type=str, default='../voice_conversion/data/data_urmp/', help="output directory")
 args = parser.parse_args()
 print(args)
